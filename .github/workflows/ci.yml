@@ -16,6 +16,10 @@ jobs:
       with:
         node-version: '20'
 
+    - name: Hexlet
+      usue: hexlet-components/hello-from-hexlet-action@release
+
+
     - name: Setup
       run: make setup
 
